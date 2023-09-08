@@ -8,3 +8,6 @@ typedef struct _Node {
 
 void deleteNode(Node ** nd, int data);
 Node* createList();
+void deleteNode(Node ** nd, int data){
+	Node * cur = *nd;
+}
